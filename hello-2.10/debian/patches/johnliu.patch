@@ -1,0 +1,9 @@
+Add testing.sh
+Index: debian/testing.sh
+===================================================================
+--- /dev/null
++++ debian/testing.sh
+@@ -0,0 +1,3 @@
++#!/bin/sh
++
++echo 'this is a test from John Liu'

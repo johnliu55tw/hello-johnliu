@@ -1,3 +1,30 @@
+hello (2.10-2ubuntu2ppa2) focal; urgency=medium
+
+  * Bump version again for testing.
+
+ -- John Liu <johnliu55tw@gmail.com>  Sat, 14 Nov 2020 23:39:38 +0800
+
+hello (2.10-2ubuntu2ppa1) focal; urgency=medium
+
+  * Bump the version number to "2.10-2ubuntu2ppa1" according to
+    https://help.launchpad.net/Packaging/PPA/BuildingASourcePackage
+
+ -- John Liu <johnliu55tw@gmail.com>  Sat, 14 Nov 2020 23:13:17 +0800
+
+hello (2.10-2johnliu2) focal; urgency=medium
+
+  * Add missing `postinst` script
+
+ -- John Liu <johnliu55tw@gmail.com>  Sat, 14 Nov 2020 14:06:49 +0800
+
+hello (2.10-2johnliu1) focal; urgency=medium
+
+  * Add `testing.sh` and install it to /usr/bin.
+
+  * Add `postinst` script
+
+ -- John Liu <johnliu55tw@gmail.com>  Sat, 14 Nov 2020 12:57:35 +0800
+
 hello (2.10-2ubuntu2) eoan; urgency=medium
 
   * Handle exit code 77 for skipped autopkgtests.
